@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Cards</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <audio autoplay loop>
+      <source src="./images/song.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+      <div id="slide">
+        <div
+          class="item small-card"
+          style="background-image: url('./images/image.jpg')"
+        >
+          <div class="content">
+            <div class="name">BMM Studio</div>
+            <div class="des">
+              Lorem ipsum dolor sit amet 
+            </div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div
+          class="item large-card"
+          style="background-image: url('./images/image2.jpg')"
+        >
+          <div class="content">
+            <div class="name">BMM Studio</div>
+            <div class="des">
+                Beautiful nature
+            </div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div
+          class="item small-card"
+          style="background-image: url('./images/image3.jpg')"
+        >
+          <div class="content">
+            <div class="name">BMM Studio</div>
+            <div class="des">
+                Beautiful nature
+            </div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div
+          class="item large-card"
+          style="background-image: url('./images/image4.jpg')"
+        >
+          <div class="content">
+            <div class="name">BMM Studio</div>
+            <div class="des">
+                Beautiful nature
+            </div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div
+          class="item small-card"
+          style="background-image: url('./images/image6.jpg')"
+        >
+          <div class="content">
+            <div class="name">BMM Studio</div>
+            <div class="des">  Beautiful nature</div>
+            <button>See more</button>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
