@@ -23,8 +23,8 @@ body {
 }
 
 .item {
-    width: 17vw; 
-    height: 30vh; 
+    width: 17vw;
+    height: 30vh;
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -43,26 +43,25 @@ body {
     top: 0;
     transform: translate(0, 0);
     border-radius: 0;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     box-shadow: none;
 }
 
-
 .item:nth-child(3) {
-    left: calc(50% - 22vw); 
+    left: calc(50% - 22vw);
 }
 
 .item:nth-child(4) {
-    left: calc(50%); 
+    left: calc(50%);
 }
 
 .item:nth-child(5) {
-    left: calc(50% + 22vw); 
+    left: calc(50% + 22vw);
 }
 
-.item:nth-child(n+6) {
-    left: calc(50% + 44vw); 
+.item:nth-child(n + 6) {
+    left: calc(50% + 44vw);
     opacity: 0;
 }
 
@@ -136,7 +135,6 @@ body {
     background-color: #bac383;
 }
 
-
 @media (max-width: 1200px) {
     .container {
         width: 90vw;
@@ -145,7 +143,7 @@ body {
     }
 
     .item {
-        width: 18vw;
+        width: 18vmin;
         height: 28vh;
     }
 
@@ -158,10 +156,10 @@ body {
     }
 
     .item:nth-child(5) {
-        left: calc(50% + 20vw); 
+        left: calc(50% + 20vw);
     }
 
-    .item:nth-child(n+6) {
+    .item:nth-child(n + 6) {
         left: calc(50% + 40vw);
     }
 }
@@ -178,19 +176,16 @@ body {
         height: 22vh;
     }
 
-
     .item:nth-child(3) {
         left: calc(50% - 16vw);
     }
 
-
     .item:nth-child(4) {
-        left: calc(50% + 2vw); 
+        left: calc(50% + 2vw);
     }
 
-
     .item:nth-child(5) {
-        left: calc(50% + 20vw); 
+        left: calc(50% + 20vw);
     }
 
     .item .content {
@@ -211,28 +206,34 @@ body {
     }
 
     .item {
-        width: 13vw;
+        width: 26vmin;
         height: 18vh;
+        margin-right: 20px;
     }
-
 
     .item:nth-child(3) {
-        left: calc(50% - 14vw); 
+        left: calc(50% - 33vw);
     }
-
 
     .item:nth-child(4) {
-        left: calc(50% + 4vw); 
+        left: calc(50% - 4vw);
     }
 
-
     .item:nth-child(5) {
-        left: calc(50% + 22vw); 
+        left: calc(50% + 24vw);
     }
 
     .item .content {
-        left: 4vw;
+        top: 20%;
+        left: 50%;
+        font: 2rem arial;
+        color: rgb(29, 14, 14);
+        transform: translate(-50%, -50%);
         width: 16vw;
+    }
+    .item .content button{
+        width: 100px;
+        font-size: 16px;
     }
 
     .item .name {
