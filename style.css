@@ -225,14 +225,11 @@ body {
 
     .item .content {
         top: 20%;
-        left: 50%;
-        font: 2rem arial;
+        left: 30%;
         color: rgb(29, 14, 14);
-        transform: translate(-50%, -50%);
         width: 16vw;
     }
     .item .content button{
-        width: 100px;
         font-size: 16px;
     }
 
